@@ -50,8 +50,9 @@ The data used in this study were obtained from the [Adolescent Brain Cognitive D
 │   ├── 02_reduce_env_dim/              # Normative modeling (Residuals)
 │   ├── 03_generate_srs/                # EFA on environmental vars
 │   ├── 04_run_univariate_regression/   # Mixed-effects models (Discovery/Holdout)
-│   ├── 05_network/                     # Network analysis (qgraph/bootnet)
-│   └── 06_mediation/                   # Neuroimaging mediation (causal mediation)
+│   ├── 05_run_networkanalysis/         # Network analysis (qgraph/bootnet)
+│   ├── 06_brain_development/           # Brain development in relation to resilience (Discovery/Holdout)
+│   └── 07_run_cme/                     # Neuroimaging mediation (causal mediation)
 ├── outputs/                            # (Not included in repo)
 │   ├── caches/
 │   ├── figures/
