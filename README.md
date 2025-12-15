@@ -42,24 +42,24 @@ The data used in this study were obtained from the [Adolescent Brain Cognitive D
 ## 📂 Repository Structure
 
 ```text
-├── data/                               # (Not included in repo)
-│   ├── raw/                            # Raw ABCD files
-│   └── processed/                      # Cleaned Rds/CSV files
+├── data/                                # (Not included in repo)
+│   ├── raw/                             # Raw ABCD files
+│   └── processed/                       # Cleaned Rds/CSV files
 ├── scripts/
-│   ├── 01_preprocess_env/              # Merging ABCD instruments & QC
-│   ├── 02_reduce_env_dim/              # Normative modeling (Residuals)
-│   ├── 03_generate_srs/                # EFA on environmental vars
-│   ├── 04_run_univariate_regression/   # Mixed-effects models (Discovery/Holdout)
-│   ├── 05_run_networkanalysis/         # Network analysis (qgraph/bootnet)
-│   ├── 06_brain_development/           # Brain development in relation to resilience (Discovery/Holdout)
-│   └── 07_run_cme/                     # Neuroimaging mediation (causal mediation)
-├── outputs/                            # (Not included in repo)
+│   ├── 01_preprocess_env.R/             # Merging ABCD instruments & QC
+│   ├── 02_reduce_env_dim.R/             # Normative modeling (Residuals)
+│   ├── 03_generate_srs.R/               # EFA on environmental vars
+│   ├── 04_run_univariate_regression.R/  # Mixed-effects models (Discovery/Holdout)
+│   ├── 05_run_networkanalysis.R/        # Network analysis (qgraph/bootnet)
+│   ├── 06_brain_development.R/          # Brain development in relation to resilience (Discovery/Holdout)
+│   └── 07_run_cme.R/                    # Neuroimaging mediation (causal mediation)
+├── outputs/                             # (Not included in repo)
 │   ├── caches/
 │   ├── figures/
 │   └── tables/
 ├── src/                                
-│   └── R/                              # Helper functions
-├── 2025_resilience_exposome.Rproj      # R project file
+│   └── R/                               # Helper functions
+├── 2025_resilience_exposome.Rproj       # R project file
 └── README.md
 
 💻 System Requirements & Dependencies
