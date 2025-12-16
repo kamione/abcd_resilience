@@ -61,18 +61,25 @@ The data used in this study were obtained from the [Adolescent Brain Cognitive D
 │   └── R/                               # Helper functions
 ├── 2025_resilience_exposome.Rproj       # R project file
 └── README.md
+```
 
-💻 System Requirements & Dependencies
+---
+
+## 💻 System Requirements & Dependencies
 
 The analysis was performed using R (version 4.4.1).
 
-📄 Citation
+---
+
+## 📄 Citation
 
 If you use this code or the derivation of the Stressor Reactivity Score in your work, please cite:
 
     Wong, T. Y., et al. (Under Review). Environmental Influences on Stress Resilience Through Brain Gray Matter in Early Adolescence: Longitudinal Insights from the ABCD Study.
 
-✉️ Contact
+---
+
+## ✉️ Contact
 
 For questions regarding the code or methodology, please open an issue in this repository or contact:
 
